@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: lahari2335/k8prac-backend:latest  # <-- change this
+          image: lahari2335/k8practice-backend:latest  # <-- change this
           ports:
             - containerPort: 2000
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: lahari2335/k8prac-frontend:latest  # <-- change this
+          image: lahari2335/k8practice-frontend:latest  # <-- change this
           ports:
             - containerPort: 80
           env:
